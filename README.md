@@ -19,7 +19,7 @@ create a View in your xml file and import the login_layout,
     <include
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout="@layout/login_main"
+        layout="@layout/login_main"
 
 	import com.taskfoundation.responsive_user_ui_lib.LoginActivity;
 
