@@ -32,17 +32,14 @@
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+  
 
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:id="@+id/edittext_email"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
                 android:hint=""
                 android:textColor="@android:color/black" />
-        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:id="@+id/textView_password"
@@ -55,18 +52,15 @@
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+       
 
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:id="@+id/edittext_password"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
                 android:drawableEnd="@drawable/ic_no_view"
                 android:hint=""
                 android:textColor="@android:color/black" />
-        </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
             android:id="@+id/forgot_button_lnr"
