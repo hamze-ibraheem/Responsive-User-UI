@@ -1,0 +1,2 @@
+include ':app', ':responsive_user_ui_lib'
+rootProject.name='Responsive_User_UI_lib'
