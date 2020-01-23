@@ -20,3 +20,13 @@ create a View in your xml file and import the login_layout,
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout="@layout/login_main"
+
+	import com.taskfoundation.responsive_user_ui_lib.LoginActivity;
+
+        LoginActivity loginActivity = new LoginActivity();
+        /**
+         * Example for getting the facebook login button object.
+         */
+        loginActivity.findViewById(R.id.login_facebook_button);
+	
+	
