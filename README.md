@@ -9,7 +9,7 @@ A Simple Library to Import a Responsive UI screens
 	}
   
   	dependencies {
-	        implementation 'com.github.hamze-ibraheem:Responsive-User-UI:1.0'
+	        implementation 'com.github.hamze-ibraheem:Responsive-User-UI:1.1'
 	}
 
 Usage:
